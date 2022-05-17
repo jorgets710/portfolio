@@ -1,0 +1,29 @@
+.skills-gral{
+    padding: 10px 30px;
+    text-align: left;
+}
+
+
+.card-icon{
+    display: flex;
+    width: 50%;
+    left: 50%;
+    position: relative;
+}
+.icon-size{
+    font-size: 80px;
+}
+.skill-card{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .card-icon{
+        display: flex;
+        width:100%;
+        
+        position: initial;
+        flex-wrap: wrap;
+    }
+}

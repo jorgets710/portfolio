@@ -1,0 +1,29 @@
+.nav-gral{
+   
+    font-size: 25px;
+    background-color: #0069a3;
+    padding: 20px;
+    position: fixed;
+    top: auto;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+    
+    
+}
+.logo{
+    position: absolute;
+    left: 120px;
+    padding: 10px;
+}
+.nav-link{
+    color: whitesmoke !important;
+}
+
+@media only screen and ( max-width : 720px ){
+   .logo{
+    position:initial
+   } 
+}
+
+

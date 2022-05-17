@@ -1,0 +1,15 @@
+.footer-gral{
+    background-color: #0069a3;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}

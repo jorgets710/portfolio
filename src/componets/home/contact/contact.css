@@ -1,0 +1,36 @@
+.contact-gral{
+    padding: 10px 30px;
+    text-align: left;
+}
+.list-contact{
+    display: flex;
+    width: 50%;
+    left: 50%;
+    position: relative;
+}
+.card-contact{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.contact-about{
+    display: flex;
+    width: 50%;
+    left: 50%;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 720px){
+    .list-contact{
+    width: 100%;
+    position:initial
+    }
+    .contact-about{
+        display: flex;
+        width: 100%;
+        
+        position: initial;
+    }
+
+}

@@ -1,0 +1,40 @@
+.about-gral{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+.picture{
+    height: 480px;
+}
+.about-info{
+    width: 50%;
+    font-size: 24px;
+    
+}
+.about-photo{
+    width:  50%;
+}
+.photo{
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .about-gral{
+        flex-wrap: wrap;
+       
+    }
+    .about-info{
+        width: 100%;
+        font-size: 24px;
+        
+    }
+    .about-photo{
+        width:  100%;
+    }
+    .photo{
+        width: 100%;
+    }
+  }
